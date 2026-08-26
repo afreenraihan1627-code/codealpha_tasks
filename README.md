@@ -1,25 +1,25 @@
-# CodeAlpha Basic Chatbot
+# CodeAlpha Stock Portfolio Tracker
 
-A simple rule-based chatbot built in Python as part of the CodeAlpha Python Programming Internship.
+A simple stock portfolio tracker built in Python as part of the CodeAlpha Python Programming Internship.
 
 ## Description
-The chatbot responds to a set of predefined user inputs like greetings, "how are you", and "bye", using simple if-elif logic.
+The user inputs stock names and quantities, and the program calculates the total investment value using a hardcoded dictionary of stock prices. The result can optionally be saved to a `.txt` report.
 
 ## Features
-- Responds to greetings ("hello", "hi", "hey")
-- Responds to common questions ("how are you", "your name")
-- Exits gracefully on "bye" / "exit" / "quit"
-- Default fallback response for unrecognized input
+- Predefined dictionary of stock prices
+- Calculates total investment value
+- Displays a breakdown per stock
+- Option to save the report to a `.txt` file
 
 ## Concepts Used
-- `if-elif` statements
-- Functions
-- Loops
+- Dictionaries
 - Input/output handling
+- Basic arithmetic
+- File handling
 
 ## How to Run
 ```
-python CodeAlpha_Chatbot.py
+python CodeAlpha_StockTracker.py
 ```
 
 ## Author
