@@ -1,25 +1,25 @@
-# CodeAlpha Hangman Game
+# CodeAlpha Basic Chatbot
 
-A simple text-based Hangman game built in Python as part of the CodeAlpha Python Programming Internship.
+A simple rule-based chatbot built in Python as part of the CodeAlpha Python Programming Internship.
 
 ## Description
-The player guesses a hidden word one letter at a time. The game allows a maximum of 6 incorrect guesses before it's game over.
+The chatbot responds to a set of predefined user inputs like greetings, "how are you", and "bye", using simple if-elif logic.
 
 ## Features
-- Random word selection from a predefined word list
-- Tracks guessed letters
-- Limits incorrect guesses to 6
-- Simple console input/output
+- Responds to greetings ("hello", "hi", "hey")
+- Responds to common questions ("how are you", "your name")
+- Exits gracefully on "bye" / "exit" / "quit"
+- Default fallback response for unrecognized input
 
 ## Concepts Used
-- `random` module
-- `while` loop
-- `if-else` statements
-- Strings and lists
+- `if-elif` statements
+- Functions
+- Loops
+- Input/output handling
 
 ## How to Run
 ```
-python CodeAlpha_Hangman.py
+python CodeAlpha_Chatbot.py
 ```
 
 ## Author
